@@ -11,5 +11,11 @@ public class Controller {
 		String msg = "Welcome to Git hub";
 		return msg;
 	}
-
+	
+	@GetMapping("/greet")
+	public String greetMsg() {
+		String msg="good eveining";
+		return msg;
+	}
+//
 }
